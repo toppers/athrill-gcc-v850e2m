@@ -1,0 +1,11 @@
+--- gcc-4.9.2/gcc/configure.orig	2023-03-14 10:00:11.588492728 +0000
++++ gcc-4.9.2/gcc/configure	2023-03-14 10:00:28.816664890 +0000
+@@ -9252,7 +9252,7 @@
+ else
+ 
+ cat >>confdefs.h <<_ACEOF
+-#define caddr_t char *
++/* #define caddr_t char * */
+ _ACEOF
+ 
+ fi
